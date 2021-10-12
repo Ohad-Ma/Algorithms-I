@@ -5,16 +5,25 @@
 ---
 ## **DONE**:
 
+
+  lecture 1:
+
  - Hanoi tower
 
  - Longest Common Prefix
 
+ - Maximum Sub Array
+
+ lecture 2:
+
+>to be continue
 
 
 ## **TODO**:
 
-  - Maximum Sub Array
+  lecture 1:
 
   - Closest Pair Problem
 
-
+lecture 2:
+>to be continue
