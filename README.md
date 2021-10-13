@@ -23,7 +23,7 @@
 
   lecture 1:
 
-  - Closest Pair Problem
+  - Closest Pair Problem 20% done
 
 lecture 2:
 >to be continue
