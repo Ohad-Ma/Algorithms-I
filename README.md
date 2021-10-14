@@ -1,3 +1,4 @@
+![](https://imgur.com/UX3E4MH)
 # Algorithms I 
 
 ## This repository contains various algorithms implemented in Java with proofs as comments on top of each file
