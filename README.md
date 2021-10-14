@@ -2,7 +2,7 @@
   <img src="https://imgur.com/UX3E4MH.png" />
 </p>
 
-<div style="text-align: center">
+<div style="text-align:center">
  <h1>Algorithms I</h1>
 
 </div>
