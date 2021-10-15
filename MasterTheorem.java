@@ -9,6 +9,9 @@
  *  * d < log_b(a) -> O(n^(log_b(a)))
  *  * d = log_b(a) -> O(n^d*log(n))
  *  * d > log_b(a) -> O(n^d)
+ * 
+ * proof: 
+ * https://www.cs.cornell.edu/courses/cs3110/2012sp/lectures/lec20-master/mm-proof.pdf
  */
 
 public class MasterTheorem {

@@ -21,6 +21,8 @@
 
  - Maximum Sub Array
 
+ - Master Theorem TC calculator
+
  lecture 2:
 
 >to be continue
@@ -31,7 +33,7 @@
   lecture 1:
 
   - Closest Pair Problem 20% done
-  - Finish Master Theorem proof
+  
 
 lecture 2:
 >to be continue
