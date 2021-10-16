@@ -23,6 +23,8 @@
 
  - Master Theorem TC calculator
 
+ - find Min Max
+
  lecture 2:
 
 >to be continue
