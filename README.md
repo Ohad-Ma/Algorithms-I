@@ -25,6 +25,8 @@
 
  - find Min Max
 
+ - Median problem
+
  lecture 2:
 
 >to be continue
