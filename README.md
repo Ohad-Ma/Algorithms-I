@@ -36,6 +36,6 @@
 
 ## **TODO**:
 
-lecture 2: :white_large_square
+lecture 2: :white_large_square:
 >to be continue
  
