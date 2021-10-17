@@ -13,7 +13,7 @@
 ## **DONE**:
 
 
-  lecture 1: -  **(DONE)** :white_check_mark
+  lecture 1: -  **(DONE)** :white_check_mark:
 
  - Hanoi tower
 
