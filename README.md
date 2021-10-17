@@ -13,7 +13,7 @@
 ## **DONE**:
 
 
-  lecture 1:
+  lecture 1: -  **(DONE)** :white_check_mark
 
  - Hanoi tower
 
@@ -27,18 +27,15 @@
 
  - Median problem
 
- lecture 2:
+ - Closest Pair Problem
+
+ lecture 2: 
 
 >to be continue
 
 
 ## **TODO**:
 
-  lecture 1:
-
-  - Closest Pair Problem 20% done
-  
-
-lecture 2:
+lecture 2: :white_large_square
 >to be continue
  
