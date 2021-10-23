@@ -31,7 +31,7 @@
 
  lecture 2: 
 
->to be continue
+ - Coing Change Problem (DP solution)
 
 
 ## **TODO**:
