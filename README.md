@@ -13,7 +13,7 @@
 ## **DONE**:
 
 
-  lecture 1: -  **(DONE)** :white_check_mark
+  lecture 1: -  **(DONE)** :white_check_mark:
 
  - Hanoi tower
 
@@ -36,6 +36,6 @@
 
 ## **TODO**:
 
-lecture 2: :white_large_square
+lecture 2: :white_large_square:
 >to be continue
  
