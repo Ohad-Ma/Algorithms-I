@@ -33,6 +33,8 @@
 
  - Coing Change Problem (DP solution)
 
+ - Fractional KnapSack Problem (Greedy Solution)
+
 
 ## **TODO**:
 
