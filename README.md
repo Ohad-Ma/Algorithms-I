@@ -35,9 +35,46 @@
 
  - Fractional KnapSack Problem (Greedy Solution)
 
+ - Activity problem (Greedy solution)
+
+ - Secretary problem (תזמון תדלוק)
+
 
 ## **TODO**:
 
 lecture 2: :white_large_square:
->to be continue
+
+- Shannon fano algorithm // ??
+
+- Huffman algorithm // ??
+
+- Polynomial Coefficients
+
+- Network cables
+
+- Cops and burglars
+
+lecture 3: :white_large_square:
+
+- Fibbonaci Sequence
+
+- Binomial Coefficients
+
+- World Series Odds
+
+- Matrix Chain Multiplication
+
+- The Integer Knapsack Problem 
+
+- Kadane's algorithm
+
+- Sub matrix with highest sum
+
+- Lowest common substring
+
+- Subset Sum 
+
+- Edit distance
+
+
  
