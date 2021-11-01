@@ -39,6 +39,16 @@
 
  - Secretary problem (תזמון תדלוק)
 
+ - Polynomial Coefficients (Greedy & no code)
+
+ - Reuven store (Greedy & no code)
+
+ - Network cables (Greedy & no code)
+
+ - Cops and burglars (Policemen catch thieves)
+
+
+
 
 ## **TODO**:
 
@@ -47,12 +57,6 @@ lecture 2: :white_large_square:
 - Shannon fano algorithm // ??
 
 - Huffman algorithm // ??
-
-- Polynomial Coefficients
-
-- Network cables
-
-- Cops and burglars
 
 lecture 3: :white_large_square:
 
@@ -76,5 +80,6 @@ lecture 3: :white_large_square:
 
 - Edit distance
 
+lecture 4: :white_large_square:
 
  
