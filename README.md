@@ -47,6 +47,14 @@
 
  - Cops and burglars (Policemen catch thieves)
 
+lecture 3:
+
+- Fibbonaci Sequence
+
+- Binomial Coefficients
+
+- World Series Odds
+
 
 
 
@@ -58,13 +66,8 @@ lecture 2: :white_large_square:
 
 - Huffman algorithm // ??
 
+
 lecture 3: :white_large_square:
-
-- Fibbonaci Sequence
-
-- Binomial Coefficients
-
-- World Series Odds
 
 - Matrix Chain Multiplication
 
