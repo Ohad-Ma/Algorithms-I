@@ -55,6 +55,8 @@ lecture 3:
 
 - World Series Odds
 
+- Matrix Chain Multiplication
+
 
 
 
@@ -69,7 +71,6 @@ lecture 2: :white_large_square:
 
 lecture 3: :white_large_square:
 
-- Matrix Chain Multiplication
 
 - The Integer Knapsack Problem 
 
