@@ -71,8 +71,7 @@ lecture 2: :white_large_square:
 
 lecture 3: :white_large_square:
 
-
-- The Integer Knapsack Problem 
+- The Integer Knapsack Problem (have to understand the implementation)
 
 - Kadane's algorithm
 
