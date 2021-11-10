@@ -72,7 +72,6 @@ lecture 2: :white_large_square:
 
 lecture 3: :white_large_square:
 
-
 - Kadane's algorithm
 
 - Sub matrix with highest sum
