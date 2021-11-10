@@ -57,6 +57,7 @@ lecture 3:
 
 - Matrix Chain Multiplication
 
+- The Integer Knapsack Problem
 
 
 
@@ -70,8 +71,6 @@ lecture 2: :white_large_square:
 
 
 lecture 3: :white_large_square:
-
-- The Integer Knapsack Problem (have to understand the implementation)
 
 - Kadane's algorithm
 
