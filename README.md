@@ -61,6 +61,8 @@ lecture 3:
 
 - Kadane's algorithm
 
+- Sub matrix with highest sum
+
 
 ## **TODO**:
 
@@ -73,8 +75,6 @@ lecture 2: :white_large_square:
 
 lecture 3: :white_large_square:
 
-- Sub matrix with highest sum
-
 - Lowest common substring
 
 - Subset Sum 
@@ -82,5 +82,13 @@ lecture 3: :white_large_square:
 - Edit distance
 
 lecture 4: :white_large_square:
+
+- DFS 
+
+- BFS
+
+lecture 5: 
+
+- Topological sort
 
  
