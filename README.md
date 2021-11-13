@@ -63,6 +63,8 @@ lecture 3:
 
 - Sub matrix with highest sum
 
+- Lowest common subsequence
+
 
 ## **TODO**:
 
@@ -74,8 +76,6 @@ lecture 2: :white_large_square:
 
 
 lecture 3: :white_large_square:
-
-- Lowest common substring
 
 - Subset Sum 
 
