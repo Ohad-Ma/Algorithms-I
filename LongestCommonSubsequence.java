@@ -20,6 +20,11 @@ public class LongestCommonSubsequence {
         // cols are + 1 to leave an empty room for empty string (AKA "")
         int rows = s2.length(),cols = s1.length()+1;
 
+        // basic cases
+        if (s1.equals(s2)) return s1.length();
+        
+        if (rows <= 0 || cols <= 0 ) throw new IllegalArgumentException("Invalid string");
+
         // sums will be stored here
         int[][] dpAns = new int[rows][cols];
 
