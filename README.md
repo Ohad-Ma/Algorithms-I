@@ -65,6 +65,8 @@ lecture 3:
 
 - Lowest common subsequence
 
+- Subset Sum 
+
 
 ## **TODO**:
 
@@ -76,8 +78,6 @@ lecture 2: :white_large_square:
 
 
 lecture 3: :white_large_square:
-
-- Subset Sum 
 
 - Edit distance
 
