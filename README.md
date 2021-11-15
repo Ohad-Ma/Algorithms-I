@@ -67,6 +67,8 @@ lecture 3:
 
 - Subset Sum 
 
+- Edit distance
+
 
 ## **TODO**:
 
@@ -75,11 +77,6 @@ lecture 2: :white_large_square:
 - Shannon fano algorithm // ??
 
 - Huffman algorithm // ??
-
-
-lecture 3: :white_large_square:
-
-- Edit distance
 
 lecture 4: :white_large_square:
 
