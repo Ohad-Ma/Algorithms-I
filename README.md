@@ -47,7 +47,11 @@
 
  - Cops and burglars (Policemen catch thieves)
 
-lecture 3:
+ - Shannon fano algorithm (psuedo greedy & no code)
+
+ - 
+
+lecture 3: -  **(DONE)** :white_check_mark:
 
 - Fibbonaci Sequence
 
@@ -74,8 +78,6 @@ lecture 3:
 
 lecture 2: :white_large_square:
 
-- Shannon fano algorithm // ??
-
 - Huffman algorithm // ??
 
 lecture 4: :white_large_square:
@@ -88,4 +90,30 @@ lecture 5:
 
 - Topological sort
 
- 
+- Graham's scan
+
+- Graphs (Covex Hull)
+
+lecture 6: 
+
+- Andrew Algorithm
+
+- Union Find
+
+lecture 7: 
+
+- Islands problem
+
+- TSP (Travelling salesman problem)
+
+lecture 8:
+
+- MST Minimum Spanning Tree
+
+- MST (Kruskal)
+
+- MST (Prim)
+
+- Cut Theorem
+
+

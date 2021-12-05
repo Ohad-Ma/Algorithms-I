@@ -1,0 +1,55 @@
+/**
+ * Problem: We are given a set of symbols with frequencies.
+ * How can we build an optimal code for them?
+ * 
+ * Solution:
+ * Using Shannon Fano algorithm -
+ * 
+ * 1. Sort the symbols according to the frequency count of their occureences
+ * 
+ * 2. Recursively divide the symbols into two parts, each with approximately the same number of counts,
+ *    until all parts contain only one symbol.
+ * 
+ * Example:
+ * 
+ * Input: "blabllab"
+ * 
+ * 1) 
+ * Symbol: b| l |a
+ *         ------- 
+ * Count:  3| 3 |2
+ *
+ * 2) 
+ *      bla
+ *      /  \
+ *    0/    \1
+ *    b      la
+ *           / \
+ *         0/   \1
+ *         l     a
+ * 
+ *
+ *Psuedo: 
+ * fanoShannon(A):
+ *    If (size(A)==1)
+ *        return
+ *    Divide A into left and right such that the difference between the sum of probabilities of left half and right half is minimum
+ *    Append 0 in the codes of the left half     
+ *    Append 1 in the codes of the right half      
+ *    fanoShannon(left)     
+ *    fanoShannon(right) 
+ * 
+ * Time Complexity: 
+ *  The time complexity runs similar to quick sort.
+ *  The recurrance relation is the following :
+ *  T(n)=T(k)+T(n-k)+Θ(n)
+ *   where k and n-k are the size of the partitions, k>0
+ *   Worst case:
+ *   The partitions done each time can be very unbalanced, for example if the probabilities are {0.05,0.1,0.15,0.2, 0.5}, then the recurrence relation becomes:
+ *   T(n)=T(n-1)+T(1)+Θ(n)
+ *   T(n) turns out to be Θ(n^2) in this case.
+ *   Best case:
+ *   If the partitions can be divided in such a way that the sizes are almost equal, for example if the probabilities are {0.2,0.25,0.25,0.3}, then the recurrance relation becomes:
+ *   T(n)=2T(n/2)+Θ(n)
+ *   T(n) turns out to be Θ(nlogn) in this case.
+ */
