@@ -29,7 +29,7 @@
 
  - Closest Pair Problem
 
- lecture 2: 
+ lecture 2: -  **(DONE)** :white_check_mark:
 
  - Coing Change Problem (DP solution)
 
@@ -49,7 +49,8 @@
 
  - Shannon fano algorithm (psuedo greedy & no code)
 
- - 
+ - Huffman algorithm (psuedo greedy & no code)
+
 
 lecture 3: -  **(DONE)** :white_check_mark:
 
@@ -75,10 +76,6 @@ lecture 3: -  **(DONE)** :white_check_mark:
 
 
 ## **TODO**:
-
-lecture 2: :white_large_square:
-
-- Huffman algorithm // ??
 
 lecture 4: :white_large_square:
 
