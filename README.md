@@ -75,11 +75,15 @@ lecture 3: -  **(DONE)** :white_check_mark:
 - Edit distance
 
 
+lecture 4:
+
+- DFS (Psuedo)
+
 ## **TODO**:
 
 lecture 4: :white_large_square:
 
-- DFS 
+
 
 - BFS
 
