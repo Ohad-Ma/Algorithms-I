@@ -1,0 +1,176 @@
+/**
+ * Problem: We are given a set of symbols with frequencies.
+ *          How can we build an optimal code for them?
+ * 
+ * 
+ * Psuedo Code:
+ * 1.  Find frequencies of all the characters in the string
+ * 2.  Make a node corresponding to every (character,frequency)
+ * 3.  Heapify the nodes
+ * 4.  While heap has 2 or more nodes
+ * 5.      Pop 2 nodes say first and second
+ * 6. 	    Make a new node x, with frequency = first.freq + second.freq
+ * 7.	    Make first node as left child of x
+ * 8.	    Make second node as right child of x
+ * 9.	    Insert x into the heap
+ * 10. Extract the last node which is the root of the tree
+ * 
+ * For assigning codes to each charater
+ * 11. Traverse the tree
+ * 12.	    If you move left, assign the path 0
+ * 13.	    If you move right, assign the path 1
+ * 14.	    If you reach the leaf node: 
+ * 
+ * 
+ * Time Complexity:
+ * Given n nodes,
+ * Heapifying n nodes = O(n)
+ * In every iteration we take out 2 nodes and insert 1 node.
+ * Therefore for n nodes,it will take n-1 iterations to make the tree
+ * While heap has 2 or more nodes: O(n)(Justified above)
+ * Extract min from heap twice O(logn)//some constant time operations
+ * Insert x in heap O(logn) To fetch code for all the nodes,
+ * traverse the tree O(n)
+ * Worst case time complexity: Θ(nlogn)
+ * 
+ * 
+ * Example:
+ * 
+ * count all chars: 
+ * A - 10 
+ * E - 15
+ * I - 12
+ * S - 3
+ * T - 4
+ * P - 13
+ * /n - 1
+ *
+ * 
+ * Step 1: identify the characters with the 2 lowest frequencies -
+ * /n, s
+ * 
+ * Step 2: Make a 2-leaf node tree for 2 lowest frequency characters - 
+ * x = smallestB.count + smallestA.count
+ * 
+ * first: /n - 1, S - 3. Therefore, x = 4        
+ *      4
+ *     / \            
+ *   /n   s
+ * 
+ * now we have left:
+ * A - 10 
+ * E - 15
+ * I - 12
+ * T - 4
+ * P - 13
+ * 
+ * Step 3: Repeat step 2 with next lowest frequency characters and add to the tree
+ * 
+ *          8
+ *         / \ 
+ *        /   \                   
+ *       /     4
+ *      /     / \            
+ *     T    /n   s
+ * 
+ * 
+ * now we have left:
+ * A - 10 
+ * E - 15
+ * I - 12
+ * P - 13    
+ * 
+ * we add 'A':
+ * 
+ *           18
+ *          /  \
+ *         /    8
+ *        /    / \ 
+ *       /    /   \                   
+ *      /    /     4
+ *     /    /     / \            
+ *    A    T    /n   s     
+ * 
+ * 
+ * we have left: 
+ * E - 15
+ * I - 12
+ * P - 13   
+ * 
+ * We notice that the the next two lowest frequency 'P' & 'I' - have much lower value (13,12) then the root's value - 18 so 
+ * we make a new tree:
+ * 
+ *      25
+ *     /  \            
+ *    I    P
+ * 
+ * we have left: 
+ * E - 15
+ * 
+ * The value of 'E' is more close to the value of the first tree - 18 so we add it to the first tree:
+ *                   33
+ *                  /  \
+ *                 /    \
+ *                /      \ 
+ *               /        \
+ *              /          18
+ *             /          /  \
+ *            /          /    8
+ *           /          /    / \ 
+ *          /          /    /   \                   
+ *         /          /    /     4
+ *        /          /    /     / \            
+ *       E          A    T    /n   s     
+ * 
+ * 
+ * Now we merge both trees:
+ * 
+ *                                58
+ *                              /    \
+ *                             /      \
+ *                            /        \
+ *                           /          \
+ *                          /            33
+ *                         /            /  \
+ *                        /            /    \
+ *                       /            /      \ 
+ *                      /            /        \
+ *                     /            /          18
+ *                    /            /          /  \
+ *                   /            /          /    8
+ *                  /            /          /    / \ 
+ *                 /            /          /    /   \                   
+ *                25           /          /    /     4
+ *               /  \         /          /    /     / \            
+ *              I    P       E          A    T    /n   s     
+ * 
+ * 
+ * Final Step: traverse on the tree. If you move left - assign the path 0, else -> assign the path 1:  
+ * 
+ * 
+ *                                58
+ *                              /    \
+ *                             /      \
+ *                            /        \ 1
+ *                           /          \
+ *                          /            33
+ *                         /            /  \
+ *                        /            /    \ 
+ *                     0 /            /      \ 1 
+ *                      /            /        \
+ *                     /            /          18
+ *                    /          0 /          /  \ 1
+ *                   /            /          /    8
+ *                  /            /          /    / \ 
+ *                 /            /        0 /  0 /   \ 1                   
+ *                25           /          /    /     4
+ *             0 /  \ 1       /          /    /   0 / \ 1           
+ *              I    P       E          A    T    /n   s       
+ * 
+ * 
+ * Beyond the course:
+ * What can we do with the 1 and 0? 
+ * Basically Huffman is Encoding algorithm, so each letter has code,freq and bits.
+ * code - the path the letter is found. For example: the code of 'I' is 00, of 'E' is 10 and so on..
+ * bits - it is the freq*the length of the path. For example: the frequency of 'E' is 15 and the length of the path is 2 (1->0) then the bits will be 2*15 which is 30 and so on for the rest...          
+ */

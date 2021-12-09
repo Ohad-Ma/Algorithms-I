@@ -29,7 +29,7 @@
 
  - Closest Pair Problem
 
- lecture 2: 
+ lecture 2: -  **(DONE)** :white_check_mark:
 
  - Coing Change Problem (DP solution)
 
@@ -47,7 +47,12 @@
 
  - Cops and burglars (Policemen catch thieves)
 
-lecture 3:
+ - Shannon fano algorithm (psuedo greedy & no code)
+
+ - Huffman algorithm (psuedo greedy & no code)
+
+
+lecture 3: -  **(DONE)** :white_check_mark:
 
 - Fibbonaci Sequence
 
@@ -59,29 +64,57 @@ lecture 3:
 
 - The Integer Knapsack Problem
 
-
-
-## **TODO**:
-
-lecture 2: :white_large_square:
-
-- Shannon fano algorithm // ??
-
-- Huffman algorithm // ??
-
-
-lecture 3: :white_large_square:
-
 - Kadane's algorithm
 
 - Sub matrix with highest sum
 
-- Lowest common substring
+- Lowest common subsequence
 
 - Subset Sum 
 
 - Edit distance
 
+
+lecture 4:
+
+- DFS (Psuedo)
+
+## **TODO**:
+
 lecture 4: :white_large_square:
 
- 
+
+
+- BFS
+
+lecture 5: 
+
+- Topological sort
+
+- Graham's scan
+
+- Graphs (Covex Hull)
+
+lecture 6: 
+
+- Andrew Algorithm
+
+- Union Find
+
+lecture 7: 
+
+- Islands problem
+
+- TSP (Travelling salesman problem)
+
+lecture 8:
+
+- MST Minimum Spanning Tree
+
+- MST (Kruskal)
+
+- MST (Prim)
+
+- Cut Theorem
+
+
