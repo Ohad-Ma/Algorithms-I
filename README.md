@@ -105,6 +105,8 @@ lecture 7:
 
 - Islands problem
 
+- Dynamic Arrays
+
 - TSP (Travelling salesman problem)
 
 lecture 8:
