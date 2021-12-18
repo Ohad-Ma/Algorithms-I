@@ -1,3 +1,9 @@
+package dfs_bfs;
+
+import java.util.HashSet;
+import java.util.Stack;
+
+/*
 Colors: 
     WHITE - Undiscovered Node
     GRAY = Discovered Node but unfinished
@@ -40,5 +46,30 @@ Output:
         f[v] = finishing time (v turns from GRAY to BLACK)
     pai[v] : predecessor of v = u, such that v was discovered during the scan of u's adjaceny list.
     
+*/
+class DFS{
+    public static void depthFirstSearch(Node start){
+        Stack<Node> st = new Stack<>();
+        HashSet<Node> seen = new HashSet<>();
+
+        // add start to the search
+        st.push(start);
+
+        while(!st.isEmpty()){
+            // pull a node
+            Node current = st.pop();
+
+            if(!seen.contains(current)){
+                // current haven't been visited
+                seen.add(current);
+                System.out.println("current: " + current);
+            }
+
+            for(Node adjacent : current.adjacents){
+                if(!seen.contains(adjacent)) st.push(adjacent);
+            }
+        }
 
 
+    }
+}
