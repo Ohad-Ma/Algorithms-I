@@ -79,6 +79,11 @@ lecture 4:
 
 - DFS (Psuedo)
 
+
+lecture 7: 
+
+- Dynamic Array
+
 ## **TODO**:
 
 lecture 4: :white_large_square:
@@ -104,6 +109,8 @@ lecture 6:
 lecture 7: 
 
 - Islands problem
+
+- Dynamic Arrays
 
 - TSP (Travelling salesman problem)
 
