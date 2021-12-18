@@ -77,7 +77,9 @@ lecture 3: -  **(DONE)** :white_check_mark:
 
 lecture 4:
 
-- DFS (Psuedo)
+- DFS 
+
+- BFS
 
 
 lecture 7: 
@@ -85,13 +87,6 @@ lecture 7:
 - Dynamic Array
 
 ## **TODO**:
-
-lecture 4: :white_large_square:
-
-
-
-- BFS
-
 lecture 5: 
 
 - Topological sort
