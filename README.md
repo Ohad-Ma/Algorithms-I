@@ -85,6 +85,8 @@ lecture 5:
 
 - Topological sort
 
+- SCC algorithm
+
 lecture 7: 
 
 - Dynamic Array
