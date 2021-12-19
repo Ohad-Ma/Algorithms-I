@@ -1,0 +1,65 @@
+/**
+ * Topological Sort is being:
+ *  A) Performed on a Directed Graph
+ *  B) Linear ordering of the vertices of G such that if (u,v) IN E then u appears somewhere before v.
+ * According to the given pdf:
+ *  Topological-Sort(G):
+ *  1) call DFS(G) to compute the finishing times f[v] for all v IN V 
+ *  2) as each vertex is finished, insert it onto the front of a linked list
+ *  3) return the linked list of vertices 
+ * 
+ * 
+ * psuedo:
+ * 
+ * topsort(graph):
+ *  N = graph.numberOfNodes()
+ *  V = [false,...,false] # length N
+ *  ordering = [0,...,0] # length N
+ *  i = N - 1 # index for ordering array
+ * 
+ *  for(at = 0 ; at < N; at++){
+ *      if V[at] == false{
+ *          visitedNodes = []
+ *          dfs(at, V, visitedNodes, graph)
+ *          for nodeId in visitedNodes{
+ *              odering[i] = nodeId
+ *              i = i - 1
+ *          }
+ *      }
+ *  }
+ *  return ordering
+ * 
+ * 
+ * dfs(i, at, V, ordering, graph){
+ *  
+ *      V[at] = true
+ *      edges = graph.getEdgesOutFromNode(at)
+ *      for edge in edges{
+ *          if V[edge.to] == false{
+ *              i = dfs(i, edges.to, V, ordering, graph)
+ *          }
+ *      }
+ *      ordering[i] = at
+ *      return i - 1
+ * }
+ * 
+ * Running time:
+ * O(|V|+|E|)
+ * 
+ * proof:
+ * Just need to show if (u,v) IN E, the f[v] < f[u] 
+ * 
+ * u is gray.
+ * Is v gray too?
+ *  No, because then v would be an ancestor of u.
+ *      => (u,v) is a back edge
+ *      => contradictrion of Lemma (Direct graph has no back edges).
+ * Is v white?
+ *  v is a descendant of u.
+ *  by parenthesis theorem, d[u]<d[v] < f[v]<f[u].
+ * 
+ * Is v black?
+ *  Then v is already finished.
+ *  Since we're exploring (v,v), we have not yet finished u.
+ *  => f[v] < f[u].
+ */

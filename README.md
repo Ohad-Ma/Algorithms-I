@@ -81,6 +81,9 @@ lecture 4:
 
 - BFS
 
+lecture 5: 
+
+- Topological sort
 
 lecture 7: 
 
@@ -88,8 +91,6 @@ lecture 7:
 
 ## **TODO**:
 lecture 5: 
-
-- Topological sort
 
 - Graham's scan
 
