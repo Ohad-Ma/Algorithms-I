@@ -85,7 +85,7 @@ lecture 5:
 
 - Topological sort
 
-- SCC algorithm
+- SCC algorithm + implementation
 
 lecture 7: 
 
