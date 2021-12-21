@@ -87,16 +87,13 @@ lecture 5:
 
 - SCC algorithm + implementation
 
+- Graham's scan
+
 lecture 7: 
 
 - Dynamic Array
 
 ## **TODO**:
-lecture 5: 
-
-- Graham's scan
-
-- Graphs (Covex Hull)
 
 lecture 6: 
 
