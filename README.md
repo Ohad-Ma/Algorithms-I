@@ -89,6 +89,8 @@ lecture 5:
 
 - Graham's scan
 
+- Andrew Algorithm
+
 lecture 7: 
 
 - Dynamic Array
@@ -96,8 +98,6 @@ lecture 7:
 ## **TODO**:
 
 lecture 6: 
-
-- Andrew Algorithm
 
 - Union Find
 
