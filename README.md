@@ -95,15 +95,13 @@ lecture 6:
 
 - Union Find
 
+- Ackerman
+
 lecture 7: 
 
 - Dynamic Array
 
 ## **TODO**:
-
-lecture 6: 
-
-- Union Find
 
 lecture 7: 
 
