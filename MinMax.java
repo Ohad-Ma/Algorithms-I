@@ -1,5 +1,3 @@
-import java.util.Arrays;
-
 /**
  * find MinMax within an array Non-recursive algorithm
  * Time Complexity: O(n)

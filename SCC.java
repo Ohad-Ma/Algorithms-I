@@ -1,4 +1,3 @@
-package strongly_connected_components;
 /*
 How to find Strong connected components?
 SCC(G):
@@ -111,8 +110,8 @@ class SCC{
             int vertex = (int)st.pop();
 
             // Print Strongly connected component of the popped vertex
-            if (visited[v] == false){
-               transponsedGraph.DFS(v, visited);
+            if (visited[vertex] == false){
+               transponsedGraph.DFS(vertex, visited);
                System.out.println();
             }
          }

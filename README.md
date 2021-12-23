@@ -89,7 +89,11 @@ lecture 5:
 
 - Graham's scan
 
+lecture 6: 
+
 - Andrew Algorithm
+
+- Union Find
 
 lecture 7: 
 

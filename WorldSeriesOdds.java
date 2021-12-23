@@ -1,5 +1,3 @@
-import java.util.Arrays;
-
 /**
  * Problem: Two teams A and B play to see who is the first to win 
  * n games. In world series games n=4. 
