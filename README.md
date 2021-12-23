@@ -101,13 +101,11 @@ lecture 7:
 
 - Dynamic Array
 
+- Islands problem
+
 ## **TODO**:
 
 lecture 7: 
-
-- Islands problem
-
-- Dynamic Arrays
 
 - TSP (Travelling salesman problem)
 
