@@ -75,13 +75,13 @@ lecture 3: -  **(DONE)** :white_check_mark:
 - Edit distance
 
 
-lecture 4:
+lecture 4:  **(DONE)** :white_check_mark:
 
 - DFS 
 
 - BFS
 
-lecture 5: 
+lecture 5:  **(DONE)** :white_check_mark:
 
 - Topological sort
 
@@ -89,7 +89,7 @@ lecture 5:
 
 - Graham's scan
 
-lecture 6: 
+lecture 6:  **(DONE)** :white_check_mark:
 
 - Andrew Algorithm
 
@@ -97,17 +97,15 @@ lecture 6:
 
 - Ackerman
 
-lecture 7: 
+lecture 7:  **(DONE)** :white_check_mark:
 
 - Dynamic Array
 
 - Islands problem
 
-## **TODO**:
-
-lecture 7: 
-
 - TSP (Travelling salesman problem)
+
+## **TODO**:
 
 lecture 8:
 
