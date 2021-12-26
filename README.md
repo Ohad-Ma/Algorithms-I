@@ -105,11 +105,13 @@ lecture 7:  **(DONE)** :white_check_mark:
 
 - TSP (Travelling salesman problem)
 
-## **TODO**:
-
 lecture 8:
 
 - Dijkstra
+
+## **TODO**:
+
+lecture 8:
 
 - Bellman-Ford Algorithm
 
