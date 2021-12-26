@@ -1,3 +1,8 @@
+* The algorithm starts with |V| different trees (each tree consists of one of the vertices in V). 
+
+* At each step unions two trees by adding the edge with  minimal weight that doesn't creates a cycle.
+
+
 Psuedo:
 MST-Kruskal(G,w){
     A <- NULL

@@ -111,12 +111,12 @@ lecture 8:
 
 - Bellman-Ford Algorithm
 
-## **TODO**:
-
-lecture 8:
-
 - MST (Kruskal)
 
 - MST (Prim)
+
+## **TODO**:
+
+
 
 

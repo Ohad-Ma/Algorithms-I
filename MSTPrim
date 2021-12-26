@@ -1,0 +1,31 @@
+* The algorithm starts with a tree T={r} (tree consisting of a single vertex) and extends it until it spans all the vertices in V(G).
+
+* At each step the minimal weight edge of all the edges connecting T to the vertices that have not been covered by T yet is added to T.
+
+* key[u] = min{w(u,v): (u,v) in E(G)  and v in T}
+
+Pseudo:
+
+key[u] = min {w(u,v) : (u,v) in E(G) and v in T}
+MST-Prim(G,w,r){
+    Q <- V(G)
+    for each v in Q:
+        key[v] <- INTEGER.MAX_VALUE (or inf)
+    key[r] <- 0
+    pai[r] <- NIL
+    while Q != NULL{
+        v <- Extract-Min(Q)
+        for each u in Adj[v]{
+            if u in Q and w(v,u) < key[u]{
+                pai[u] <- V
+                key[u] <- w(v,u)
+                decreaseKey(Q,u)
+            }
+        }
+    }
+}
+
+Time Complexity:
+Using a binary heap the runtime is O(Vlog(V) + Elog(V)) = O(Elog(V))
+
+
