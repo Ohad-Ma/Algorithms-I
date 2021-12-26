@@ -115,12 +115,8 @@ lecture 8:
 
 lecture 8:
 
-- MST Minimum Spanning Tree
-
 - MST (Kruskal)
 
 - MST (Prim)
-
-- Cut Theorem
 
 

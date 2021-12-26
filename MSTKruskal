@@ -1,0 +1,17 @@
+Psuedo:
+MST-Kruskal(G,w){
+    A <- NULL
+    for each vertex v in V(G){
+        Make-Set(v)
+    }
+    sort the edges in E(G) by non-decreasing weight w
+    for each edge(u,v) in E(G) in order by non-decreasing weight{
+        if Find-Set(u) != Find-Set(v):
+            A <- A union {(u,v)}
+            Union(u,v)
+    }
+    return A
+}
+
+Running Time:
+Assuming that the optimized union-find is used. Therefore, the runtime is (Elog(E)) = O(Elog(V))
