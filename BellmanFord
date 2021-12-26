@@ -1,0 +1,19 @@
+BellmanFord(G,s){
+    for each v in V:
+        d[v] = INTEGER.MAX_VALUE (or inf..); pai(v) = NULL (pointer v);
+    d[s] = 0;
+    repeat n-1 times:
+        for each edge e in E:
+            relax(e);
+    for each edge e=(u,v) in E:
+        if (d[v] > d[u] + w(u,v))
+            return "error: negative cycle";
+}
+
+Proof:
+* If there are no negative cycle, then every vertex has a shortest path is is simple (no repeated vertices)
+* Path has at most n-1 edges.
+* After each iteration of the outer loop, at least one more vertex of the path converges.
+
+
+Running Time: O(n*m)

@@ -109,11 +109,11 @@ lecture 8:
 
 - Dijkstra
 
+- Bellman-Ford Algorithm
+
 ## **TODO**:
 
 lecture 8:
-
-- Bellman-Ford Algorithm
 
 - MST Minimum Spanning Tree
 
