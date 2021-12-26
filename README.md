@@ -109,6 +109,10 @@ lecture 7:  **(DONE)** :white_check_mark:
 
 lecture 8:
 
+- Dijkstra
+
+- Bellman-Ford Algorithm
+
 - MST Minimum Spanning Tree
 
 - MST (Kruskal)

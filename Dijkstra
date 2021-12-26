@@ -1,0 +1,39 @@
+Dijkstra (G,s){
+    for each v IN V:
+        d[v] = INTEGER.MAX_VALUE (or inf..); pai(v) = NULL (pointer v);
+    d[s] = 0; Q = V;
+    while (Q != fi (empty group)):
+        u = ExtractMin(Q);
+        for each e leaving u:
+            relax(e);
+}
+
+relax(e=(u,v)){
+    if (d[v] > d[u]+w(e)) then:
+        DecreaseKey(v, d[u]+w(e));
+        pai[v] = u;
+}
+
+Correctness:
+Claim: Whenever a vertex u is removed from Q, it has already converged.
+
+Proof : Assuming a contradiction, let u be first vertex that has not converged when removed from Q
+    * Let P be a shortest path from s to u
+    * Let y be the first vertex of P that was in Q at the moment u was removed from Q (we could have y = u).
+    * x converged -> edge(x,y) was relaxed -> y converged -> y != u -> d[y] < d[u]
+    * contradiction
+
+Running Time: 
+Q operations: Init - 1
+              DeleteMin - n
+              DecreaseKey - m
+
+now it depends on which heap the priority queue is based on:
+    Binary heap: Init takes O(n)               |
+                 DeleteMin takes O(log(n))     } TOTAL = O(m*log(n))
+                 DecreaseKey takes O(log(n))   |
+                 
+    Fibonacci heap: Init takes O(n)               |
+    DeleteMin takes O(log(n))     } TOTAL = O(m+nlog(n))
+    DecreaseKey takes O(log(1))   |
+                 
