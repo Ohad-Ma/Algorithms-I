@@ -9,6 +9,7 @@
  */
 public class WorldSeriesOdds {
     public static double[][] winningRate(int n, int m){
+        double q = 0.5;
         double[][] ans = new double[n][m];
         for (int i = 1; i<n; i++){
             ans[0][i] = 1;
@@ -19,7 +20,7 @@ public class WorldSeriesOdds {
 
         for (int i = 1; i < n ; i++){
             for (int j = 1; j < m ; j++)
-                ans[i][j] = (0.5)*ans[i-1][j] + (0.5)*ans[i][j-1];
+                ans[i][j] = (q)*ans[i-1][j] + (1-q)*ans[i][j-1];
         }
         return ans;
     }
