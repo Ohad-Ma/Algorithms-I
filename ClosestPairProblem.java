@@ -4,7 +4,8 @@ import java.util.List;
 /**
  * Closest Pair Problem: find the closest two points.
  * 
- *  O(nlog(n)) -> Let Time complexity of the algorithm be T(n). Let us assume that we use a O(nLogn) sorting algorithm. The algorithm divides all points in two sets and compares both points on each set (the lambda expression function).
+ *  O(nlog(n)) -> Let Time complexity of the algorithm be T(n). Let us assume that we use a O(nLogn) sorting algorithm. The algorithm divides all points in two sets and
+ *  compares both points on each set (the lambda expression function).
  * Then going all over the list O(n) measuring the smallest distance. Then returning both points (p1,p2) as pair in a list. Therefore, we have :
  *  T(n) = 2T(n/2) + O(n) + O(n) + O(n) 
  *   T(n) = 2T(n/2) + O(n) 
